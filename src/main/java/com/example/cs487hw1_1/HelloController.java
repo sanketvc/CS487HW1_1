@@ -25,6 +25,8 @@ public class HelloController {
         private Button btnAdd;
         @FXML
         private Button btnSearch;
+        @FXML
+        private Button btnResetTable;
 
 
         @FXML
@@ -199,6 +201,13 @@ public class HelloController {
                 }
 
         }
+
+
+        @FXML
+        void ResetTable(ActionEvent event) {
+                updateTable();
+        }
+
 }
 
 

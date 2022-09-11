@@ -48,5 +48,6 @@
       <TextField fx:id="txtSearchByDateTimeRangeEnd" layoutX="450.0" layoutY="482.0" promptText="YYYY-MM-DD HH:MM:SS" />
       <Label layoutX="193.0" layoutY="486.0" text="Start:" />
       <Label layoutX="414.0" layoutY="486.0" text="End:" />
+      <Button fx:id="btnResetTable" layoutX="636.0" layoutY="321.0" mnemonicParsing="false" onAction="#ResetTable" text="Reset Table" />
    </children>
 </AnchorPane>
